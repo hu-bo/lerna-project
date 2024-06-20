@@ -8,7 +8,7 @@
   "author": "hubo9@qq.com",
   "homepage": "https://github.com/H-jx/jx-quant#readme",
   "license": "CC-BY-NC-4.0",
-  "main": "lib/lib.js",
+  "main": "lib/index.js",
   "files": [
     "lib"
   ],
@@ -19,7 +19,7 @@
   "scripts": {
     "start": "node dist/lib.js",
     "tsup": "tsup-node",
-    "test": "node ./__tests__/lib.test.js"
+    "test": "jest --colors --onlyChanged"
   },
   "bugs": {
     "url": "https://github.com/H-jx/jx-quant/issues"
